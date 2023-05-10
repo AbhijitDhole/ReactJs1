@@ -1,0 +1,13 @@
+npm install bootstrap
+
+To import Bootstrap in index.js
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+
+component:
+1. Class component
+-We have to use extends in class component to extend from Component just like inheritance in python
+-And to render something we have to use render method
+-Hooks are introduced in react 16 version and now we using 18th version and hooks cannot be applied in classComponent so its not prefered in the inductry
+
+2. Functional component
+- Easy to use adn hooks can be applied in the functional components
