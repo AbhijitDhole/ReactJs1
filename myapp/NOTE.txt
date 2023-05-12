@@ -11,3 +11,9 @@ component:
 
 2. Functional component
 - Easy to use adn hooks can be applied in the functional components
+
+When we export more that one item from the component we cannot use default export, We have to use named export
+export{username, password, Welcome}
+
+Props : Props are arguments passed inside the react components
+        To send data from Parent to Child component

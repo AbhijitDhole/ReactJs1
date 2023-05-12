@@ -6,6 +6,10 @@ import Hello from './MyComponents/MyclassComponent';
 import Headline from './MyComponents/MyfunctionalComponent';
 import Friends from './MyComponents/FriendsComponent';
 import EmpTable from './MyComponents/EmpTable';
+//import { Welcome, password, username } from './MyComponents/welcome';
+import * as data from './MyComponents/welcome';
+import ParentComp from './MyComponents/ParentCOmp';
+import Parent from './ContextComp/Parent';
 
 
 
@@ -34,10 +38,8 @@ root.render(
 <h1 className='text-success'>Yeehaw!! Bootstrap in React</h1>
 
 <div className='container'>
-    <Hello/>
-    <Headline/>
-    <Friends/>
-    <EmpTable/>
+    <Parent/>
+
 </div>
 </>
 
