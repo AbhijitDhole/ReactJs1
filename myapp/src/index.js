@@ -10,6 +10,7 @@ import EmpTable from './MyComponents/EmpTable';
 import * as data from './MyComponents/welcome';
 import ParentComp from './MyComponents/ParentCOmp';
 import Parent from './ContextComp/Parent';
+import MystateHook from './Hooks/MyStateHook';
 
 
 
@@ -38,8 +39,7 @@ root.render(
 <h1 className='text-success'>Yeehaw!! Bootstrap in React</h1>
 
 <div className='container'>
-    <Parent/>
-
+    <MystateHook/>
 </div>
 </>
 

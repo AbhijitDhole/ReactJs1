@@ -15,5 +15,20 @@ component:
 When we export more that one item from the component we cannot use default export, We have to use named export
 export{username, password, Welcome}
 
-Props : Props are arguments passed inside the react components
-        To send data from Parent to Child component
+Props : Props are arguments passed inside the react components.
+        To send data from Parent to Child component.
+
+React Context: React context allows us to access data in any component of the tree.
+
+Hooks : hooks allows react components to access state and other react features.
+        Hooks can be call inside react function component only.
+        Hooks should be called at the top levvel of the component.
+        Hooks cannot be conditional.
+
+useState : It is used to change the state of object.
+           It takes 2 parameters.
+           1. Variable: It will store the initial value.
+           2. Function: Use to change the state of variable.
+
+           const[variable, Function\]=useState(value)
+           const[name, Chanagename]=useState("Umesh")
